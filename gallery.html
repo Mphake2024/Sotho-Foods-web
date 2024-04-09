@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/contact.css">
+     <title>|SOTHO FOODS| gallery</title>
+     <style>
+        #gallery-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .gallery-item {
+            width: 45%;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 70%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }     
+     </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id="logo-container">
+                <img src="11.jpg" alt="image" width="8%">
+                <h1 id="company-name">SOTHO FOODS</h1>
+            </div>
+            <div id="menu-container">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <ul id="menu-itens">
+                <b> <a href="index.html" class="menu-item">Home</a>
+                    <a href="service.html" class="menu-item">Services</a>
+                    <a href="about.html" class="menu-item">About</a>
+                    <a href="contact.html" class="menu-item">Contact</a></b>
+                </ul>
+                <div class="social-container">
+                    <a href="" class="menu-item"><i class="social-icon fa-brands fa-instagram"></i></a>
+                    <a href="" class="menu-item"><i class="social-icon fa-brands fa-facebook"></i></a>
+                    <a href="" class="menu-item"><i class="social-icon fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </nav>
+         <style>
+        /* Styles for the page */
+        body {
+            padding: 20px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color:#333;
+            color:  #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header a {
+            color: #333;
+            color:  #fff ;
+            padding: 10px;
+            margin: 0 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+        }
+      
+    </style>
+    </header>
+        <section id="gallery-section">
+            <article class="gallery-item">
+                <img src="poone.webp" alt="Gallery Image 1">
+            </article>
+            <article class="gallery-item">
+                <img src="p1.png" alt="Gallery Image 2">
+            </article>
+            <article class="gallery-item">
+                <img src="p2.png" alt="Gallery Image 3">
+            </article>
+            <article class="gallery-item">
+                <img src="p3.png" alt="Gallery Image 4">
+            </article>
+            <article class="gallery-item">
+                <img src="p4.png" alt="Gallery Image 5">
+            </article>
+            <article class="gallery-item">
+                <img src="p5.png" alt="Gallery Image 6">
+            </article>
+        </section>
+    </main>    
+    <footer>
+        <div class="footer-container">
+            <div id="logo-container-footer">
+               <p>Mankoane <br> P.O.Box 2233<Br>Maseru 100</p>
+            </div>
+            <div class="copyright">
+                <p>©2024 || SOTHO FOODS || All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>   
+</body>
+</html>
